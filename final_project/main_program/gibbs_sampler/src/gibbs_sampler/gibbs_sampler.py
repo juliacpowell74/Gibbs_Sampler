@@ -6,10 +6,11 @@ This script runs a basic Gibbs Sampler algorithm for de novo motif
 finding. Given a set of sequences and motif width, the algorithm will
 run for the desired number of iterations. It will then check for convergence
 as defined as no change in motif position or less than a one percent change
-in the Position Weight Matrix. If convergence has not been reached, the
-sampler will continue to run until it reaches convergence or until it
-has repeated the desired number of iterations for second a time to
-prevent the sampler from running indefinitely.
+in the Position Weight Matrix.
+
+If convergence has not been reached, the sampler will continue to run until
+it reaches convergence or until it has repeated the desired number of
+iterations for second a time to prevent the sampler from running indefinitely.
 
 Input files must be in fasta format.
 
@@ -114,14 +115,11 @@ class Sequence:
         ------
         SystemExit
             If the desired motif width is equal to or longer than the sequence.
-        AssertionError
-            If the motif instance is longer than the desired width.
         """
         if W >= len(self.sequence):
             sys.exit('Error: motif width must be less than sequence length')
         pos = random.randint(0, len(self.sequence) - W)
         motif = self.sequence[pos:pos + W]
-        assert len(motif) == W
         self.instances.append(motif)
 
     def find_site_prob(self, pwm, background):
@@ -132,7 +130,7 @@ class Sequence:
 
         Parameters
         ----------
-        pwm : Bio.motifs.matrix.PositionWeightMatrix
+        pwm :
             A position weight matrix generated from the motif instances.
         background : dict of {str : float}
             Background nucleotide frequencies.
@@ -178,11 +176,6 @@ class Sequence:
         -------
         new_motif : str
             A new motif instance.
-
-        Raises
-        ------
-        AssertionError
-            If normalized motif scores do not sum to 1.
          """
         motif_score, total_score = find_site_prob(pwm, background)
         weights = []
@@ -205,7 +198,7 @@ def get_sequences(file):
 
     Parameters
     ----------
-    file : io.TextIOWrapper
+    file :
         File handle containing DNA sequences in fasta format.
 
     Returns
@@ -241,10 +234,6 @@ def background_freq(sequences):
     -------
     background : dict of {str : float}
         The background frequency for each nucleotide.
-    Raises
-    ------
-    AssertionError
-        If  frequencies do not sum to one.
     """
     background_dict = {'A': 0, "C": 0, "G": 0, "T": 0}
     for seq in sequences:
@@ -254,7 +243,6 @@ def background_freq(sequences):
         background_dict['T'] += seq.sequence.count('T')
     total = sum(background_dict.values())
     background = {k: v / total for (k, v) in background_dict.items()}
-    assert round(sum(background.values()), 2) == 1.0
     return background
 
 
@@ -269,7 +257,7 @@ def calc_pwm(motif_instances):
 
     Returns
     -------
-    pwm : Bio.motifs.matrix.PositionWeightMatrix
+    pwm :
         A position weight matrix generated from motif instances.
     """
     motif = motifs.create(motif_instances)
@@ -301,9 +289,9 @@ def run_sampler(sequences, motif_instances, background):
         The final motif generated from the sampler.
     old_motif : str
         The second to last motif generated.
-    new_pwm : Bio.motifs.matrix.PositionWeightMatrix
+    new_pwm :
         The final pwm generated from the sampler.
-    old_pwm : Bio.motifs.matrix.PositionWeightMatrix
+    old_pwm :
         The second to last pwm generated from the sampler.
     """
     # initialize starting positions in sequences
@@ -342,9 +330,9 @@ def change_in_pwm(final_pwm, initial_pwm):
 
     Parameters
     ----------
-    final_pwm : Bio.motifs.matrix.PositionWeightMatrix
+    final_pwm :
         The final pwm generated from run_sampler().
-    initial_pwm : Bio.motifs.matrix.PositionWeightMatrix
+    initial_pwm :
         The second to last pwm generated from run_sampler().
 
     Returns
@@ -418,7 +406,7 @@ def web_logo(motif_instances):
     Raises
     ------
     AssertionError
-        If process has not finished.
+        If process is not completed.
     """
     with subprocess.Popen(
             ['weblogo'],
@@ -452,15 +440,17 @@ def main():
             # exit the program if neither condition returns True after
             # running the sampler a second time through the
             # desired number of iterations
-            # prevents the loop from running indefinitely
+            # this prevents the loop from running indefinitely
             sys.exit('Error: No motif was found in the provided sequences.')
 
     pssm = final_pwm.log_odds(background)
     rel_entropy = pssm.mean(background)
     web_logo(motif_instances)
 
-    print(f'The PSSM is:\n{pssm}\n\nThe motif is {final_motif}.\n\n'
-          f'The relative entropy is {rel_entropy} bits.')
+    print(f'The PWM is:\n{final_pwm}\n\n'
+          f'The PSSM is:\n{pssm}\n\n'
+          f'The motif is {final_motif}.\n\n'
+          f'The relative entropy is {rel_entropy} bits.\n')
 
 # --------------------------------------------------
 

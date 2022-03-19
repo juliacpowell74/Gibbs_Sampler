@@ -1,25 +1,36 @@
-# gibbs_sampler
+## Gibbs_Sampler
 
-Gibbs Sampler for motif discovery
+This program runs the Gibbs Sampler algorithm for
+de novo motif discovery. Given a set of sequences, the program
+will calculate the most likely motif instance as well as 
+the position weight matrix and position specific scoring matrix
+(the log2 normalized frequency scores).
 
-## Installation
-
+The input sequence file should be provided in fasta format. Output is written to the console. 
+A eps file containing the weblogo of the motif is also created.
+#Getting Started
+##Prerequisites
+Python 3.8 or later is required.
+##Installation
+The program can be installed with pip by running the following command:
 ```bash
 $ pip install gibbs_sampler
 ```
 
 ## Usage
 
-- TODO
+To run, simply call gibbs_sampler from the command line along with 
+the path to the sequence file and expected width of the motif.
 
-## Contributing
-
-Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+````bash
+$ gibbs_sampler <primary sequence file> <width>
+````
+Optional arguments for the title of the weblogo file and number of 
+iterations of the sampler can be specified using the -t and -n flags respectively.
 
 ## License
 
 `gibbs_sampler` was created by Monty Python. It is licensed under the terms of the CC0 v1.0 Universal license.
 
 ## Credits
-
-`gibbs_sampler` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+Thank you to Professor Hendrix for teaching me how to use python to investigate biologically relevant questions.

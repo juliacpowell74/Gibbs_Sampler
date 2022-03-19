@@ -11,10 +11,11 @@
    finding. Given a set of sequences and motif width, the algorithm will
    run for the desired number of iterations. It will then check for convergence
    as defined as no change in motif position or less than a one percent change
-   in the Position Weight Matrix. If convergence has not been reached, the
-   sampler will continue to run until it reaches convergence or until it
-   has repeated the desired number of iterations for second a time to
-   prevent the sampler from running indefinitely.
+   in the Position Weight Matrix.
+
+   If convergence has not been reached, the sampler will continue to run until
+   it reaches convergence or until it has repeated the desired number of
+   iterations for second a time to prevent the sampler from running indefinitely.
 
    Input files must be in fasta format.
 
@@ -128,7 +129,6 @@ Attributes
       Create a motif instance and appends it to the 'instance' attribute.
 
       :raises SystemExit: If the desired motif width is equal to or longer than the sequence.
-      :raises AssertionError: If the motif instance is longer than the desired width.
 
 
    .. py:method:: find_site_prob(self, pwm, background)
@@ -138,7 +138,6 @@ Attributes
       Passed as an argument to sample_new_motif method.
 
       :param pwm: A position weight matrix generated from the motif instances.
-      :type pwm: Bio.motifs.matrix.PositionWeightMatrix
       :param background: Background nucleotide frequencies.
       :type background: dict of {str : float}
 
@@ -164,8 +163,6 @@ Attributes
       :returns: **new_motif** -- A new motif instance.
       :rtype: str
 
-      :raises AssertionError: If normalized motif scores do not sum to 1.
-
 
 
 .. py:function:: get_sequences(file)
@@ -173,7 +170,6 @@ Attributes
    Parse each sequence in a fasta file and create a Sequence object.
 
    :param file: File handle containing DNA sequences in fasta format.
-   :type file: io.TextIOWrapper
 
    :returns: **sequences** -- A list containing all parsed sequences.
    :rtype: list of Sequence objects
@@ -192,8 +188,6 @@ Attributes
    :returns: **background** -- The background frequency for each nucleotide.
    :rtype: dict of {str : float}
 
-   :raises AssertionError: If  frequencies do not sum to one.
-
 
 .. py:function:: calc_pwm(motif_instances)
 
@@ -202,8 +196,8 @@ Attributes
    :param motif_instances: A list containing randomly selected motif instance from each sequence.
    :type motif_instances: list of str
 
-   :returns: **pwm** -- A position weight matrix generated from motif instances.
-   :rtype: Bio.motifs.matrix.PositionWeightMatrix
+   :returns: A position weight matrix generated from motif instances.
+   :rtype: pwm
 
 
 .. py:function:: run_sampler(sequences, motif_instances, background)
@@ -224,8 +218,8 @@ Attributes
 
    :returns: * **new_motif** (*str*) -- The final motif generated from the sampler.
              * **old_motif** (*str*) -- The second to last motif generated.
-             * **new_pwm** (*Bio.motifs.matrix.PositionWeightMatrix*) -- The final pwm generated from the sampler.
-             * **old_pwm** (*Bio.motifs.matrix.PositionWeightMatrix*) -- The second to last pwm generated from the sampler.
+             * *new_pwm* -- The final pwm generated from the sampler.
+             * *old_pwm* -- The second to last pwm generated from the sampler.
 
 
 .. py:function:: change_in_pwm(final_pwm, initial_pwm)
@@ -237,9 +231,7 @@ Attributes
    from each column in the matrices.
 
    :param final_pwm: The final pwm generated from run_sampler().
-   :type final_pwm: Bio.motifs.matrix.PositionWeightMatrix
    :param initial_pwm: The second to last pwm generated from run_sampler().
-   :type initial_pwm: Bio.motifs.matrix.PositionWeightMatrix
 
    :returns: * **False** (*bool*) -- If the percent change between the final and initial pwm is
                greater than or equal to one percent.
@@ -273,7 +265,7 @@ Attributes
    :param motif_instances: A list containing the motif instances generated from run_sampler()
    :type motif_instances: list of str
 
-   :raises AssertionError: If process has not finished.
+   :raises AssertionError: If process is not completed.
 
 
 .. py:function:: main()
