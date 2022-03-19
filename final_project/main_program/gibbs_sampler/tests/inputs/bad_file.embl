@@ -1,0 +1,430 @@
+ID   mm9_chr11:95292903-95292913(+); ; ; DNA; ; UNC; 0 BP.
+XX
+AC   mm9_chr11:95292903-95292913(+);
+XX
+DE   mm9_chr11:95292903-95292913(+)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 0 BP; 0 A; 0 C; 0 G; 0 T; 0 other;
+//
+ID   mm9_chr11:95292903-95292913(+); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr11:95292903-95292913(+);
+XX
+DE   mm9_chr11:95292903-95292913(+)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 21 A; 25 C; 29 G; 36 T; 0 other;
+     gtcactgtgt actctaggct cgttggtccc caagcttctg ggtggctctt tcttatctcc        60
+     cgtcttactg taagaacaga tggagtgcta gaacaagtag gattgtgtct g                111
+//
+ID   mm9_chr13:101286751-101286761(+); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr13:101286751-101286761(+);
+XX
+DE   mm9_chr13:101286751-101286761(+)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 26 A; 43 C; 16 G; 26 T; 0 other;
+     cctcctagag gcctttcact caagtccctg caggatgagg tacaagcctc tcttatctcc        60
+     ccgcatctat ccctacaatc ctccagccag agcaaccact cactgactca t                111
+//
+ID   mm9_chr13:23399431-23399441(-); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr13:23399431-23399441(-);
+XX
+DE   mm9_chr13:23399431-23399441(-)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 44 A; 24 C; 16 G; 27 T; 0 other;
+     acccttcagt tttatccgtt actaaccaag atagagtaaa tttgctaaaa tcttatctgt        60
+     gagaactaca atgcaaacaa accaaagatt aaaaagccac actggacagg c                111
+//
+ID   mm9_chr13:32050472-32050482(-); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr13:32050472-32050482(-);
+XX
+DE   mm9_chr13:32050472-32050482(-)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 22 A; 31 C; 21 G; 37 T; 0 other;
+     ttaggaagct tagccctgct ctctcctagg ttcatgctgc ccacttgccc tcttatctgt        60
+     ttaaaaggat ttcagccaca gctctcaagg cctattaatg ggttgtattc c                111
+//
+ID   mm9_chr13:46520150-46520160(-); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr13:46520150-46520160(-);
+XX
+DE   mm9_chr13:46520150-46520160(-)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 27 A; 23 C; 24 G; 37 T; 0 other;
+     cgttttctaa tgctcatggt aaggattaaa tgtcacaatt cacgtgtctc tcttatctgt        60
+     tctgtgcatg cggtacagcg gatcatctgt agcatacagc tagatgctga a                111
+//
+ID   mm9_chr14:12907529-12907539(+); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr14:12907529-12907539(+);
+XX
+DE   mm9_chr14:12907529-12907539(+)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 37 A; 26 C; 17 G; 31 T; 0 other;
+     ctagagatgc tatggagaat atctgaaatt catagataac cttcctcttg ccttatctct        60
+     tgacatgaat gcagatgact aaaaatctca tgcagaaaat gcacccccct a                111
+//
+ID   mm9_chr16:94826852-94826862(-); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr16:94826852-94826862(-);
+XX
+DE   mm9_chr16:94826852-94826862(-)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 25 A; 40 C; 18 G; 28 T; 0 other;
+     ccacctgggt taatggaggt catcaccagc ccagtatctc aaaccaaagt tcttatctcc        60
+     caggactctg tcctatccct tccggcacat tccataatct cctcggcagc c                111
+//
+ID   mm9_chr17:26987864-26987874(+); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr17:26987864-26987874(+);
+XX
+DE   mm9_chr17:26987864-26987874(+)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 21 A; 40 C; 25 G; 25 T; 0 other;
+     tgtcgggcca ggagtatcag cgcgcacacc aaatctgctc tggtatgtca tcttatctcc        60
+     cttccccgct gttgtcccca aacgctgcct gtcaagagag acgccacccg c                111
+//
+ID   mm9_chr10:118486222-118486232(+); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr10:118486222-118486232(+);
+XX
+DE   mm9_chr10:118486222-118486232(+)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 32 A; 30 C; 24 G; 25 T; 0 other;
+     aaccccctcc caaagaacag cctggagata accacaaaaa tggggaaata tcttatctca        60
+     gaatgggcca tctgtgctgg gctgccctat ctcgtcctag agttaagcgt t                111
+//
+ID   mm9_chr11:4887362-4887372(+); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr11:4887362-4887372(+);
+XX
+DE   mm9_chr11:4887362-4887372(+)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 19 A; 46 C; 21 G; 25 T; 0 other;
+     tgcttgtccc ttcccactcc tcggccaacc tcaggcctcc tcgttcaggg ccttatctct        60
+     tagccgccgc ccccccaaaa cggggcaaac atctagaaat ggccttctgc c                111
+//
+ID   mm9_chr11:6428676-6428686(-); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr11:6428676-6428686(-);
+XX
+DE   mm9_chr11:6428676-6428686(-)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 17 A; 35 C; 35 G; 24 T; 0 other;
+     gctggcagcc atggctggcg ggtccttcct agcatgtgct gcggccctca ccttatcttc        60
+     cgtcatcagg gcacaggcgc cgtgcagggc tattccgagt ccaggtagag a                111
+//
+ID   mm9_chr11:11702519-11702529(+); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr11:11702519-11702529(+);
+XX
+DE   mm9_chr11:11702519-11702529(+)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 30 A; 28 C; 25 G; 28 T; 0 other;
+     agcactctga aaaggggaac atctcagact gctccctgga atggcttggg tcttatctgt        60
+     gtcatgacct gaactggata atatgtcagc gtcttcagaa cctccacaaa c                111
+//
+ID   mm9_chr11:23259814-23259824(+); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr11:23259814-23259824(+);
+XX
+DE   mm9_chr11:23259814-23259824(+)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 34 A; 31 C; 20 G; 26 T; 0 other;
+     gtaactcagc aaagcaggaa acaaagcccc atggtctctg tttctgacat tcttatctgt        60
+     gtgagcccag tgacaaatgc cagattccca tgtcaccaaa agctctcaac a                111
+//
+ID   mm9_chr11:51729994-51730004(-); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr11:51729994-51730004(-);
+XX
+DE   mm9_chr11:51729994-51730004(-)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 18 A; 44 C; 23 G; 26 T; 0 other;
+     cccttgggaa tctccctggc accgctgggc accgagccta tctctgcacc tcttatctca        60
+     gcttccctcg ggggcaagct ctgtctctac cgaaccccct tgaaatgcac c                111
+//
+ID   mm9_chr11:53122244-53122254(+); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr11:53122244-53122254(+);
+XX
+DE   mm9_chr11:53122244-53122254(+)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 27 A; 27 C; 24 G; 33 T; 0 other;
+     cagtattcag caaatcctgg gctggtttcc atctggccaa accacagtcc tcttatctca        60
+     ggaggcaggc agtactctct ggttcttgat tagtaacaat gattttaagg c                111
+//
+ID   mm9_chr11:62137418-62137428(-); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr11:62137418-62137428(-);
+XX
+DE   mm9_chr11:62137418-62137428(-)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 35 A; 32 C; 20 G; 24 T; 0 other;
+     acactcttaa acaatcacca acaaaaaccc ctggtgctct ctgtgcacac tcttatctca        60
+     gagatgacct ttccaagcat agagacccaa ggctgaagga cagcaggttg t                111
+//
+ID   mm9_chr11:75286496-75286506(-); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr11:75286496-75286506(-);
+XX
+DE   mm9_chr11:75286496-75286506(-)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 28 A; 31 C; 19 G; 33 T; 0 other;
+     ctctcacttt gtacttttaa acacatactt taaacacaca cgccttgtac ccttatctct        60
+     gtagatagag ctccccgagg ctgagtcata ccagtgtctg gatctggcag a                111
+//
+ID   mm9_chr11:76211909-76211919(-); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr11:76211909-76211919(-);
+XX
+DE   mm9_chr11:76211909-76211919(-)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 16 A; 36 C; 31 G; 28 T; 0 other;
+     gatgggaatc gcgtaggagt ggccgctctc tgccctcccc actctacaac ccttatcttc        60
+     ctcctctagc cacttgactc ctcgcagata cctgtggtgt ggggggtggg g                111
+//
+ID   mm9_chr11:76670810-76670820(+); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr11:76670810-76670820(+);
+XX
+DE   mm9_chr11:76670810-76670820(+)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 28 A; 24 C; 25 G; 34 T; 0 other;
+     gcagatggca cccggcgact acagttactt aagttctacc actcagtggt tcttatctgt        60
+     gtataaactg ttgattggcc gacattctgg caaatctatg aatgagtcag t                111
+//
+ID   mm9_chr11:100287399-100287409(-); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr11:100287399-100287409(-);
+XX
+DE   mm9_chr11:100287399-100287409(-)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 27 A; 40 C; 22 G; 22 T; 0 other;
+     cagctaagac aataaggaac tgggctcctc tgcaggcctc tcctgcagac ccttatctct        60
+     ggacagtaac tcccaaggcc ccaggcctct tcacacccac aggcatctga t                111
+//
+ID   mm9_chr12:11244636-11244646(+); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr12:11244636-11244646(+);
+XX
+DE   mm9_chr12:11244636-11244646(+)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 20 A; 26 C; 23 G; 42 T; 0 other;
+     attgtcatgc ttttaagtgt gtgcttgcca ttttgataat taggttccat tcttatctgt        60
+     tgccctgacc actgacatag acccatctct gcccagtagg ttgtggtgct c                111
+//
+ID   mm9_chr12:32061753-32061763(+); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr12:32061753-32061763(+);
+XX
+DE   mm9_chr12:32061753-32061763(+)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 25 A; 23 C; 21 G; 42 T; 0 other;
+     tgttcgctct gcctgtttct ctggcttggg atcaacaaga aagagtattt ccttatctct        60
+     ttccctcaag aggattgctt ttcagagttt ctcttatctt aaaaggatga a                111
+//
+ID   mm9_chr12:81237364-81237374(-); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr12:81237364-81237374(-);
+XX
+DE   mm9_chr12:81237364-81237374(-)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 18 A; 30 C; 32 G; 31 T; 0 other;
+     ctctatcaca gcgtgctctt tggtgagagg agacggtcag gcactgggcc ccttatctct        60
+     tggtcttgtg cctggagtct gtcatgcagt caagcgaaca ctcctgttgc g                111
+//
+ID   mm9_chr12:102237509-102237519(-); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr12:102237509-102237519(-);
+XX
+DE   mm9_chr12:102237509-102237519(-)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 22 A; 27 C; 24 G; 38 T; 0 other;
+     aaacgaccct gcacggccat ggtctggtct tactcagact ggtctaagta tcttatctgt        60
+     gtttccacat ttgaccctgt gtaggtgtta tccttgatgt actacttgga c                111
+//
+ID   mm9_chr12:113121285-113121295(-); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr12:113121285-113121295(-);
+XX
+DE   mm9_chr12:113121285-113121295(-)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 19 A; 31 C; 24 G; 37 T; 0 other;
+     aaactaccca gaccactctg gcaacagtgt gtctgccttg cttcatggtg tcttatctca        60
+     gttctgtctt agctctctgt gtagtgtgac ctccaggtca tctactcggg t                111
+//
+ID   mm9_chr12:114280892-114280902(+); ; ; DNA; ; UNC; 111 BP.
+XX
+AC   mm9_chr12:114280892-114280902(+);
+XX
+DE   mm9_chr12:114280892-114280902(+)
+XX
+OS   .
+OC   .
+XX
+FH   Key             Location/Qualifiers
+FH
+XX
+SQ   Sequence 111 BP; 20 A; 32 C; 29 G; 30 T; 0 other;
+     gtatcttttt taataaggtc tggctgagta gcccaggctg gcccaggtca tcttatctca        60
+     gcctcccgag tgctggtact gtgggtgagt gccagccacc acacccagct t                111
+//
